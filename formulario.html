@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estiloP.css">
+    <title>Registrar Personas</title>
+</head>
+<body>
+    <center>
+        <div class="login-box">
+            <form method="post" id="myform">
+                <h1>FORMULARIO PERSONAS</h1>
+                <div class="user-box">
+                    <label>Nombre</label>
+                    <input name="nombre" required type="text" id="nombre">
+                </div>
+                <div class="user-box">
+                    <label>Apellidos</label>
+                    <input name="apellidos" required type="text" id="apellidos">
+                </div>
+                <div class="user-box">
+                    <label>Edad</label>
+                    <input name="Edad" required type="number" id="Edad">
+                </div>
+                <center>
+                    <input type="submit" value="Registrar">
+                </center>
+            </form>
+            <div id="infoBox" class="hidden">
+                <button id="closeBtn">Cerrar</button>
+                <div id="infoContent"></div>
+            </div>
+        </div>
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>
